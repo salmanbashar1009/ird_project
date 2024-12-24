@@ -74,7 +74,7 @@ class ProductDetalsScreen extends StatelessWidget {
                 ),
                 SizedBox(
                   width: double.infinity,
-                  height: 150,
+                  height: 120,
                   child: Image.network("https://cdn.buttercms.com/aY8pmetzRZzc3fYxkOUg",fit: BoxFit.cover,),
                 ),
                 const SizedBox(
