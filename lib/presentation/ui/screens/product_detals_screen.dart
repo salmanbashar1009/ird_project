@@ -4,6 +4,7 @@ import 'package:get/get.dart';
 import 'package:ird_project/presentation/state_managers/product_details_controller.dart';
 import 'package:ird_project/presentation/ui/widgets/icon_background.dart';
 import 'package:ird_project/presentation/ui/widgets/image_gallery.dart';
+import 'package:ird_project/presentation/ui/widgets/map_section.dart';
 import 'package:ird_project/presentation/ui/widgets/product_details_card.dart';
 import 'package:ird_project/utils/path_holder.dart';
 
@@ -72,11 +73,14 @@ class ProductDetalsScreen extends StatelessWidget {
                 const SizedBox(
                   height: 20,
                 ),
-                SizedBox(
-                  width: double.infinity,
-                  height: 120,
-                  child: Image.network("https://cdn.buttercms.com/aY8pmetzRZzc3fYxkOUg",fit: BoxFit.cover,),
-                ),
+                // SizedBox(
+                //   width: double.infinity,
+                //   height: 120,
+                //   child: Image.network("https://cdn.buttercms.com/aY8pmetzRZzc3fYxkOUg",fit: BoxFit.cover,),
+                // ),
+
+                const MapSection(),
+
                 const SizedBox(
                   height: 8,
                 ),
